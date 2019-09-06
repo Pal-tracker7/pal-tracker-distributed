@@ -6,7 +6,6 @@ applications:
   routes:
   - route: honnur-raja-pal-allocations.cfapps.io
   path: Applications/AllocationsServer/bin/Release/netcoreapp2.1/publish
-  env:
-    REGISTRATION_SERVER_ENDPOINT: https://honnur-raja-pal-registration.cfapps.io/
   services:
   - tracker-allocations-database
+  - tracker-service-registry

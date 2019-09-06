@@ -6,7 +6,6 @@ applications:
   routes:
   - route: honnur-raja-pal-timesheets.cfapps.io
   path: Applications/TimesheetsServer/bin/Release/netcoreapp2.1/publish
-  env:
-    REGISTRATION_SERVER_ENDPOINT: https://honnur-raja-pal-registration.cfapps.io/
   services:
   - tracker-timesheets-database
+  - tracker-service-registry
